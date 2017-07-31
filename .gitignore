@@ -1,5 +1,9 @@
-*/vendor/*
+css/vendor/*
+js/vendor/*
 fonts
+
+
+
 # Created by https://www.gitignore.io/api/node,intellij+all
 
 ### Intellij+all ###

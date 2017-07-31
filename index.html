@@ -15,7 +15,7 @@
             }
         </style>
         <link rel="stylesheet" href="css/vendor/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/vendor/main.css">
+        <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -33,6 +33,12 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
+              <button id="user-profile" class="btn btn-default">
+                  <img id="profilepicture" />&nbsp;<span id="profilename"></span>
+              </button>
+
+              <button id="auth0-login" class="btn btn-success">Sign in</button>
+              <button id="auth0-logout" class="btn btn-success">Sign Out</button>
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
             </div>
@@ -84,6 +90,11 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+    <script src="https://cdn.auth0.com/js/lock-9.min.js"></script>
+
+    <script src="js/user-controller.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+
     </body>
 </html>
