@@ -88,9 +88,10 @@ var userController = {
     });
 
     this.uiElements.profileButton.click(function(e) {
-      var url = that.data.config.apiBaseUrl + '/user-profile';
+      var url = that.data.config.apiBaseUrl + '/userprofile';
 
       $.get(url, function(data, status) {
+        alert(JSON.stringify(data));
         $('#user-profile-raw-json').text(JSON.stringify(data, null, 2));
         $('#user-profile-modal').modal();
       })
