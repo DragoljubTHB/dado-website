@@ -91,7 +91,7 @@ var userController = {
       var url = that.data.config.apiBaseUrl + '/userprofile';
 
       $.get(url, function(data, status) {
-        alert(JSON.stringify(data));
+        //alert(JSON.stringify(data));
         $('#user-profile-raw-json').text(JSON.stringify(data, null, 2));
         $('#user-profile-modal').modal();
       })
