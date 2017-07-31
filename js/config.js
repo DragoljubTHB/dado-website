@@ -5,5 +5,7 @@ var configConstants = {
 	},
   apiBaseUrl: 'https://qaov2snb71.execute-api.us-west-2.amazonaws.com/dev'
 };
-//https://us-west-2.console.aws.amazon.com/apigateway/home?region=us-west-2#/apis/qaov2snb71/stages/dev
-//https://qaov2snb71.execute-api.us-west-2.amazonaws.com/dev
+
+
+//id_token
+//eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImxpdHRsZXZ3aW5nQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy1DbThNWnRmSnp1US9BQUFBQUFBQUFBSS9BQUFBQUFBQUFsYy9pTXpPMEpCdjF3dy9waG90by5qcGciLCJpc3MiOiJodHRwczovL2xpdHRsZXZ3aW5nLmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDEwNjg1NzY5NTMxMTE2MDMwNjg2MSIsImF1ZCI6Imo1NHBXaThmY1FQQzZlTHkwMnY4anNJRl94OVBndWNQIiwiZXhwIjoxNTAxNTQyMDQ0LCJpYXQiOjE1MDE1MDYwNDR9.VrSxcFI1mrfLE_wLnUbUTI1h7ZILa6pRZNLgNf-eOTA
