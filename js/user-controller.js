@@ -38,9 +38,14 @@ var userController = {
     this.wireEvents();
   },
   configureAuthenticatedRequests: function() {
+   // var that = this;
     $.ajaxSetup({
       'beforeSend': function(xhr) {
-        xhr.setRequestHeader('Authorization', 'Bearer ' + localStorage.getItem('userToken'));
+          xhr.setRequestHeader('Authorization', 'Bearer ' + localStorage.getItem('userToken'));
+
+ //         if(that.data.config.apiBaseUrl.contains('amazonaws') && that.data.config.apiBaseUrl.contains('api')){
+ //           xhr.setRequestHeader('Authorization', 'Bearer ' + localStorage.getItem('userToken'));
+ //       }
       }
     });
   },
